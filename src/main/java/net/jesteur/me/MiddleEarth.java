@@ -12,6 +12,7 @@ import net.jesteur.me.world.biomes.MEBiomesData;
 import net.jesteur.me.world.chunkgen.map.MapImageLoader;
 import net.jesteur.me.world.chunkgen.map.MiddleEarthHeightMap;
 import net.jesteur.me.world.dimension.ModDimensions;
+import net.jesteur.me.world.trees.ModTrunkPlacerTypes;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -34,6 +35,7 @@ public class MiddleEarth implements ModInitializer {
 		ModNatureBlocks.registerModBlocks();
 		ModEntityModels.getModels();
 		ModEntities.registerModEntities();
+		ModTrunkPlacerTypes.registerModTrunkPlacerTypes();
 
 		ModDimensions.register();
 		MEBiomeKeys.registerModBiomes();

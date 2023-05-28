@@ -16,8 +16,12 @@
         "feature": "me:mallorn_small_tree"
       },
       {
-        "chance": 0.5,
+        "chance": 0.48,
         "feature": "me:mallorn_tall_tree"
+      },
+      {
+        "chance": 0.02,
+        "feature": "me:mallorn_large_tree"
       }
     ]
   }
